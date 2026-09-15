@@ -1,4 +1,4 @@
-# Core dependencies
+--upgrade pip setuptools wheel
 python-telegram-bot==20.3
 pyppeteer==0.2.5
 fake-useragent==1.4.0
@@ -6,9 +6,5 @@ PyMySQL==1.1.0
 requests==2.31.0
 beautifulsoup4==4.12.2
 websocket-client==1.6.2
-
-# Additional utilities
 Pillow==10.0.0
 python-dotenv==1.0.0
-logging-handler==0.1.0
-config==0.5.1
